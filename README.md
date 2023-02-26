@@ -38,3 +38,20 @@ Iterate over each of your `compromised_users`.
 
 
 ### Notifying the Boss
+**12.** Your boss needs to know that you were successful in retrieving that compromised data. We’ll need to send him an encoded message over the internet. Let’s use JSON to do that.
+
+First we’ll need to import the `json` module.
+
+**13.** Open a new JSON file in write-mode called `boss_message.json`. Save the file object to the variable `boss_message`.
+
+**14.** Create a Python dictionary object within your `with` statement that relays a boss message. Call this `boss_message_dict`.
+
+Give it a `"recipient"` key with a value `"The Boss"`.
+
+Also give it a "message" key with the value `"Mission Success"`.
+
+**15.** Write out `boss_message_dict` to `boss_message` using `json.dump()`.
+
+### Scrambling the Password
+
+
